@@ -2,26 +2,13 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Barlow Condensed', sans-serif;
   }
-  @font-face {
-    font-family: BSCLight;
-    src: url(/Barlow_Semi_Condensed/BarlowSemiCondensed-Light.ttf);
-  }
-  @font-face {
-    font-family: BSCBold;
-    src: url(/Barlow_Semi_Condensed/BarlowSemiCondensed-Bold.ttf);
-  }
-  @font-face {
-    font-family: BSCSBold;
-    src: url(/Barlow_Semi_Condensed/BarlowSemiCondensed-ExtraBold.ttf);
-  }
-  @font-face {
-    font-family: BSCRegular;
-    src: url(/Barlow_Semi_Condensed/BarlowSemiCondensed-Regular.ttf);
-  }
+
   body {
     font-size: 10px;
     background: hsl(210, 46%, 95%);
+    
   }
   
   .testimonials {
@@ -54,22 +41,22 @@
     color: hsl(0, 0%, 100%);
     font-size: .8rem;
     padding-bottom: .4rem;
-    font-family: BSCSBold;
+    
   }
   .testimonial-reviewer p { 
     font-size: .8rem;
-    font-family: BSCLight;
+    
   }
   .testimonial > p {
     padding-bottom: 1rem;
     font-weight: 900;
     font-size: 1.2rem;
     color: #ffffff;
-    font-family: BSCBold;
+    
   }
   .testimonial q {
     font-size: 1rem;
-    font-family: BSCRegular;
+    
   }
   .testimonial-1 { 
     background:url(/images/bg-pattern-quotation.svg) no-repeat top , hsl(263, 55%, 52%);
